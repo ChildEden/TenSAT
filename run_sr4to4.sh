@@ -1,0 +1,12 @@
+python3 src/train_nnsat_org.py \
+  --task-name 'dev_nnsat_oo_modify' \
+  --dim 128 \
+  --n_rounds 24 \
+  --epochs 25 \
+  --n_pairs 100000 \
+  --max_nodes_per_batch 12000 \
+  --min_n 4 \
+  --max_n 4 \
+  --is-normal 1 \
+  --val-file 'sr5/sr_4_4_pairs_100000_batch_642_npb_12000.pkl' \
+  --train-file 'sr5/sr_4_4_pairs_100000_batch_642_npb_12000.pkl' \
